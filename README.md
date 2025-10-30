@@ -35,8 +35,6 @@ RescueComm/
 4. Setup Instructions
 
 Step 1: Clone or Extract the Project
-If using Git:
-```bash
 git clone https://github.com/nlecodaa/RescueComm.git
 cd RescueComm
 Or just unzip the provided file.
@@ -76,3 +74,4 @@ Input Message	Category	Priority	Risk Score
 "A man fainted at the railway station"	Ambulance	High	91
 
 Nikhil
+
