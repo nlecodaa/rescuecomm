@@ -19,7 +19,7 @@ It then logs and displays the simulated dispatch through a clean web interface.
 - Simple and responsive UI with ready emergency buttons  
 
 
-## 3. Project Structure
+3. Project Structure
 
 RescueComm/
 ├── app.py # Main Flask application
@@ -41,7 +41,6 @@ Or just unzip the provided file.
 
 Step 2: Create and Activate Virtual Environment
 python -m venv venv
-
 venv\Scripts\activate
 
 Step 3: Install Dependencies
@@ -58,13 +57,9 @@ http://127.0.0.1:5000
 
 5. How It Works
 The user submits an emergency message through the web form.
-
 The NLP model classifies it into one of three categories – Police, Fire, or Ambulance.
-
 The risk engine analyzes severity keywords and assigns a score (0–100).
-
 Based on the score, the system labels the case as High, Medium, or Low priority.
-
 The result is stored in the database and displayed with a simulated dispatch alert.
 
 6. Example Messages
@@ -74,4 +69,5 @@ Input Message	Category	Priority	Risk Score
 "A man fainted at the railway station"	Ambulance	High	91
 
 Nikhil
+
 
