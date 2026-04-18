@@ -66,7 +66,7 @@ The result is stored in the database and displayed with a simulated dispatch ale
 Input Message	Category	Priority	Risk Score
 "A big fire near the city mall!"	Fire	High	88
 "My shop was robbed last night"	Police	Medium	63
-"A man fainted at the railway station"	Ambulance	High	91
+"A man fainted at the station"	Ambulance	High	91
 
 Nikhil
 
